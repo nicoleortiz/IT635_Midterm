@@ -12,10 +12,8 @@ CREATE DATABASE NOmidterm;
 CREATE USER itmidterm WITH PASSWORD 'midterm';
 GRANT ALL PRIVILEGES ON DATABASE nomidterm TO itmidterm;
 
----
 Logging in as user:
-psql postgres://itmidterm:midterm@localhost:5432/nomidterm
----
+  psql postgres://itmidterm:midterm@localhost:5432/nomidterm
 
 4. Get the files
 wget https://raw.githubusercontent.com/nicoleortiz/IT635_Midterm/main/NO_Tables.sql
